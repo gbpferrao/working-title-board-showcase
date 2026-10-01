@@ -1,18 +1,12 @@
-﻿# WORKING TITLE - 3D Board Showcase
+﻿# WORKING TITLE — 3D Board Showcase
 
-A standalone full-screen 3D tabletop interaction study. Four character cards from one team start on the board, with five item cards in the viewer hand.
+A full-screen tabletop card sandbox with a 10 × 10 board, sample character cards, and a draggable hand. Cards are not assigned to either player.
 
 ## Interactions
 
-- Drag a character card to move it to an open square.
-- Hover a board character and use the round shield button to toggle its defending pose.
-- Drag an item card from the hand onto a character to attach it, or onto an empty square to deploy it.
-- Hand cards rise on hover and can all be dragged.
+- Drag cards from the hand onto the board, or move deployed cards to another open square.
+- Hover deployed cards to lift them; return deployed item cards to the hand by dragging them to the bottom edge.
+- Drag an item card onto a character card to attach it. Use the round shield control on a character to toggle its defending pose.
+- Scroll to zoom. Middle-drag pans. Ctrl or Shift + middle-drag orbits.
 
-## Camera
-
-- Scroll to zoom.
-- Middle-drag to pan.
-- Ctrl or Shift + middle-drag to orbit.
-
-This repository contains the production build served by GitHub Pages. The game is labeled WORKING TITLE throughout.
+This repository contains the production build served by GitHub Pages.
